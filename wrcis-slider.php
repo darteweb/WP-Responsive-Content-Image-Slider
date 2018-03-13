@@ -12,18 +12,18 @@ add_image_size( 'wrcis-home-thumb', 500, 300, true );
 
 function wrcis_wpdocs_slider_css() {
 	
-   wp_register_style('wrcis-owl-carousel-min-css',plugins_url('wrcis-slider/css/owl.carousel.min.css'));
+   wp_register_style('wrcis-owl-carousel-min-css',plugins_url('css/owl.carousel.min.css',__FILE__));
    wp_enqueue_style('wrcis-owl-carousel-min-css');
-   wp_register_style('wrcis-slider-style',plugins_url('wrcis-slider/css/slider-style.css'));
+   wp_register_style('wrcis-slider-style',plugins_url('css/slider-style.css',__FILE__));
    wp_enqueue_style('wrcis-slider-style');
 }
 add_action('wp_enqueue_scripts','wrcis_wpdocs_slider_css');
 
 
 function wrcis_wpdocs_slider_scripts() {
-   wp_register_script('wrcis-owl-carousel-min-js',plugins_url('wrcis-slider/js/owl.carousel.min.js'));
+   wp_register_script('wrcis-owl-carousel-min-js',plugins_url('js/owl.carousel.min.js',__FILE__));
    wp_enqueue_script('wrcis-owl-carousel-min-js');
-   wp_register_script('wrcis-slider-js',plugins_url('wrcis-slider/js/wrcis-slider-js.js'));
+   wp_register_script('wrcis-slider-js',plugins_url('js/wrcis-slider-js.js',__FILE__));
    wp_enqueue_script('wrcis-slider-js');
 
 }
@@ -150,8 +150,8 @@ class DtSliderClass {
           <div class="control-area"> 
           <div class="owl-controls">
                 <div class="owl-nav">
-                    <div class="owl-prev"><img src="<?php echo plugins_url('wrcis-slider/images/left.png');?>" class="left-icon" ></div>
-                    <div class="owl-next"><img src="<?php echo plugins_url('wrcis-slider/images/right.png');?>" class="right-icon" ></div>
+                    <div class="owl-prev"><img src="<?php echo plugins_url('images/left.png',__FILE__);?>" class="left-icon" ></div>
+                    <div class="owl-next"><img src="<?php echo plugins_url('images/right.png',__FILE__);?>" class="right-icon" ></div>
                 </div>
             </div>
           </div><!--control-area-->     
