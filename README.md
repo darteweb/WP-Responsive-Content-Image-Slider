@@ -1,14 +1,23 @@
 === Whook content slider ===
 
 Contributors: darteweb
+
 Tags: slider,page slider, post slider, category's post slider,content slider
+
 Requires at least: 3.0.1
+
 Tested up to: 4.9.4
+
 Requires PHP: 5.2.4
+
 Stable tag: 4.3
+
 License: GPLv2 or later
+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
 Whook content slider is a Post, Page and Specific Category's Posts Slider
+
 
 === Description ===
 
