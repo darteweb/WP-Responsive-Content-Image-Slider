@@ -1,4 +1,5 @@
 === Whook content slider ===
+
 Contributors: darteweb
 Tags: slider,page slider, post slider, category's post slider,content slider
 Requires at least: 3.0.1
