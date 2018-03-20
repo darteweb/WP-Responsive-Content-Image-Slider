@@ -1,7 +1,7 @@
 <?php
 /*
   Plugin Name: Whook content slider
-  Description: Whook content slider is a Post, Page and Specific Category's Posts Slider Use Shortcode - [dt_slider title="related project" category_id="" post_id="" page_id="847,892" order_by="ID" order="asc" ]
+  Description: Whook content slider is a Post, Page and Specific Category's Posts Slider Use Shortcode - [dt_slider title="Related project" category_id="" post_id="" page_id="847,892" order_by="ID" order="asc"]
   Version: 1.0
   Author: D'arteweb
   Author URI: http://darteweb.com
